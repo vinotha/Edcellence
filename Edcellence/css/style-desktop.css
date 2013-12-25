@@ -8,14 +8,29 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 #ed-img {
-    left:10em;
+    left:8em;
     position:relative;
     top:-9em;
 }
 #pro-button {
     position:relative;
-    top:-14em;
+    top:-17em;
 }
+#title {
+  color:black!important;
+  font-weight:bold;
+}
+p {
+  color:#111111!important;
+}
+#name,
+#email,
+#subject,
+#message
+{
+  border:1px solid #3895C9;
+}
+
 	body
 	{
 		font-size: 13pt;
@@ -123,11 +138,11 @@
 	
 		.wrapper-first
 		{
-			padding-top: 12em;
+			padding-top: 7em;
 		}
-                #product1,
-                #features,
-                #team {
+                product1,
+                features,
+                team {
                  margin-top:-4em;
                   
                 }
@@ -211,6 +226,7 @@
 	#copyright
 	{
 		font-size: 1em;
+    color:#FFFFFF;
 	}
 
 		#copyright li
@@ -227,3 +243,4 @@
 			box-shadow: none;
 			padding-left: 0;
 		}
+    
