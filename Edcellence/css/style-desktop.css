@@ -7,21 +7,24 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+.keep-scrolling {
+  float:right;background-color:#3895C9;color:#FFFFFF;text-align:left;padding-left:2px;padding-right:2px;text-shadow:none;border-radius:4px;font-weight:bold;
+}
 .feature-box-height {
-  height:38em;
+  height:41em;
 }
 .feature-box-first-3 {
-  height: 30em;
+  height: 33em;
 }
 .fu-image {
-  position:relative;
-  left:5em;
-  right: 3.5em;
-  height:13em;
-  width:10em;
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+  
+  
 }
 #ed-img {
-    left:9em;
+    left:10em;
     position:relative;
     top:-9em;
    
@@ -38,12 +41,15 @@
 p {
   color:#111111!important;
 }
+.justify {
+  text-align:justify;
+}
 #name,
 #email,
 #subject,
 #message
 {
-  border:1px solid #282828;
+  border:1px solid #E2EFF7   ;
 }
 
 	body
@@ -223,9 +229,29 @@ p {
 			font-size: 1.5em;
 			line-height: 1.75em;
 		}
+    
+/*********************************************************************************/
+/* Contact                                                                      */
+/*********************************************************************************/
 		
-	#contact
+ .contact-first {
+    text-align:left;
+    border-left:1px solid #555;
+   }
+   .contact-title {
+     color:#0099CC;text-transform:uppercase;font-weight:600;
+   }
+   .contact-addr {
+     text-align:left;color:#000000;font-size:14.54px;
+   }
+   .contact-second,
+   .contact-third {
+     text-align:left;
+   }
+	.contact-number,
+  .contact-mail
 	{
+    color:#000000;font-size:14.54px;
 	}
         #con-ed {
             font-size:2em;
@@ -246,6 +272,7 @@ p {
 		font-size: 1em;
     color:#FFFFFF;
 	}
+  
 
 		#copyright li
 		{
