@@ -11,6 +11,17 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+#error-name,
+#error-email,
+#error-subject,
+#error-message{
+  color:red;
+  font-size:14px;
+  text-align: left;
+}
+.success-message {
+  color:green;text-align:left;
+}
 
 	*
 	{
@@ -107,9 +118,9 @@
 			padding: 0.75em;
 			font-size: 1em;
 			border-radius: 8px;
-			background: #282828;
-			color: #bbb;
-			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025);
+			background-color: #FFFFFF;
+			color: black !important;
+			/*box-shadow: inset 2px 2px 5px 2px , 0px 1px 0px 0px #4CA0CE; */
 			width: 100%;
 			-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 			-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
@@ -123,9 +134,11 @@
 		form select:focus,
 		form textarea:focus
 		{
-			background: #252525;
-			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025), inset 0px 0px 2px 1px #74CAEE;
-		}
+			background: #FFFFFF;
+		/*	box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025), inset 0px 0px 2px 1px #74CAEE;
+	*/
+     border:1px solid #3895c9;
+    }
 
 		form textarea
 		{
@@ -134,27 +147,35 @@
 		
 		form .formerize-placeholder
 		{
-			color: #555 !important;
+			color: #3B3B3B !important;
+      font-weight:400;
 		}
 
 		form ::-webkit-input-placeholder
 		{
-			color: #555 !important;
+			color: #3B3B3B  !important;
+      font-weight:400;
 		}
 
 		form :-moz-placeholder
 		{
-			color: #555 !important;
+			color: #3B3B3B  !important;
+      font-weight:bold;
+     
 		}
 
 		form ::-moz-placeholder
 		{
-			color: #555 !important;
+			color: #3B3B3B  !important;
+      font-weight:400;
 		}
 
 		form :-ms-input-placeholder
 		{
-			color: #555 !important;
+			color: #3B3B3B  !important;
+      font-weight:400;
+     
+      
 		}
 
 		form ::-moz-focus-inner
@@ -395,7 +416,7 @@
 				width: 48px;
 				height: 48px;
 				outline: 0;
-				color: #2E2E2E !important;
+				color: #FFFFFF !important;
 				line-height: 48px;
 				font-size: 24px;
 				text-shadow: 1px 1px 0px rgba(255,255,255,0.1);

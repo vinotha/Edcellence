@@ -7,25 +7,33 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+.feature-box-height {
+  height:38em;
+}
+.feature-box-first-3 {
+  height: 30em;
+}
 .fu-image {
   position:relative;
-  margin-left:7em;
+  left:5em;
+  right: 3.5em;
   height:13em;
   width:10em;
 }
 #ed-img {
-    left:8em;
+    left:9em;
     position:relative;
     top:-9em;
+   
 }
 #pro-button {
     position:relative;
-    top:-17em;
+    top:-15em;
 }
 #title {
   color:black!important;
   font-weight:bold;
+  font-size:18px;
 }
 p {
   color:#111111!important;
@@ -35,7 +43,7 @@ p {
 #subject,
 #message
 {
-  border:1px solid #3895C9;
+  border:1px solid #282828;
 }
 
 	body
@@ -136,7 +144,10 @@ p {
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
-
+.wrapper-first-page {
+  padding:8em 0 1em 0;
+  text-align:center;
+}
 	.wrapper
 	{
 		padding: 8em 0 8em 0;
@@ -147,9 +158,9 @@ p {
 		{
 			padding-top: 7em;
 		}
-                product1,
-                features,
-                team {
+                #product1,
+                #features,
+                #team {
                  margin-top:-4em;
                   
                 }
