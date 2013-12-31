@@ -343,7 +343,7 @@
               <article class="box box-style2">
 
 
-                <a href="#team" class="image"><img src="images/rajagopalan.jpg" alt=""  height="160" /></a>
+                <a href="#team" class="image"><img src="images/rajagopalan.jpg" alt=""/></a>
                 <h4><a href="#team">Rajagopalan V </a></h4>
                 <p>Founder, Head of Solutions</p>
 
@@ -353,7 +353,7 @@
               <article class="box box-style2">
 
 
-                <a href="#team" class="image"><img src="images/lakshmi.jpg" height="160" alt=""/></a>
+                <a href="#team" class="image"><img src="images/lakshmi.jpg" alt=""/></a>
                 <h4><a href="#team">Lakshmi Narasimhan</a></h4>
                 <p>Co-founder, Head of Technology</p>
 
@@ -361,7 +361,7 @@
             </div>
             <div class="4u">
               <article class="box box-style2">
-                <a href="#team" class="image"><img src="images/vinoudini.jpg" height="160" alt="" /></a>
+                <a href="#team" class="image"><img src="images/vinoudini.jpg" alt="" /></a>
                 <h4><a href="#team">Vinoudini Boj </a></h4>
                 <p> Co-founder, Head of Operations </p>
               </article>
